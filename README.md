@@ -18,3 +18,26 @@ I have never use a Jupyter Notebook for a program different than Python.
 5. Create a new Jupyter Notebook your_file.ipynb 
 6. Change the kernel to julia
 7. Have fun with your Julia notebook
+
+
+## Adding R to Jupyter Notebooks
+
+ 1. Install R in your system
+    For linux it would be 
+    sudo apt-get install r-base
+    and then
+    sudo apt-get install r-base-dev
+
+2. Verify the installation
+    In the terminal type R to open R console
+
+3. In order to install R devtools make sure you have the following Linux libraries
+    sudo apt-get install libzmq3-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev build-essential libcurl4-openssl-dev libxml2-dev libssl-dev libfontconfig1-dev
+
+3. In the R session, install the IRKernel with these commands:
+    install.packages('devtools')
+    devtools::install_github('IRkernel/IRkernel')
+    IRkernel::installspec()
+4. Create a new Jupyter Notebook your_file.ipynb 
+5. Change the kernel to R
+6. Have fun with your R notebook
