@@ -1,13 +1,11 @@
-registros = []
-while True:
-    registro = {}
+def agregar_usuario():
     print("A continuacion podrá agregar datos personales")
     nombre = input("Introduzca el nombre: ")
     apellido = input("Introduzca el apellido: ")
     cedula = input("Introduzca la cedula: ")
     correo = input("Introduzca el correo electronico: ")
     telefono = input("Introduzca el telefono: ")
-
+    
     registro = {
         "nombre": nombre, 
          "apellido": apellido, 
@@ -17,12 +15,21 @@ while True:
     
     registros.append(registro)
 
-    salir = input("Si desea salir presione y ")
+def listar_usuarios():
+    for datos in registros:
+        print(datos)
 
-    if salir == 'y' or salir == 'Y':
+
+registros = []
+while True:
+    agregar_usuario()
+    opcion = input(
+        '''Para agregar mas usuarios presione 'a',
+        para ver los usuarios registrados presione v, 
+        para salir presione cualquier tecla.''').lower()
+    if opcion == 'v':
+        listar_usuarios()
+    elif opcion == 'a':
+        agregar_usuario()
+    else:
         break
-
-for datos in registros:
-    print(datos)
-
-#print(registros)
