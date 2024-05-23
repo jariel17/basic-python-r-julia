@@ -1,5 +1,5 @@
-
-figuras = {'1':'Circulo', '2':'Rectangulo', '3':'Triangulo'}
+import matematicas
+import matematicas.circulo
 
 while True:
     print(
@@ -17,9 +17,13 @@ b. Perimetro''')
     
     calculo = input()
 
-    if figura == 1 and calculo == 'a':
-        print("area del circulo")
-    elif figura == 1 and calculo == 'b':
+    if figura == 1 :
+        radio = int(input('Indica cual es el radio del circulo: '))
+        if calculo == 'a':
+            print("El area del circulo es: %2d" (matematicas.circulo.area(radio))) 
+        elif calculo == 'b':
+            print("El perimetro del circulo es: %2d" (matematicas.circulo.perimetro(radio))) 
+    elif figura == 2:
         print("perimetro del circulo")
     elif figura == 2 and calculo == 'a':
         print("area del rectangulo") 
