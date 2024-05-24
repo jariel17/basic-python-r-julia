@@ -16,17 +16,21 @@ def agregar_usuario():
     registros.append(registro)
 
 def listar_usuarios():
-    for datos in registros:
-        print(datos)
-
+    if len(registros) != 0:
+        for registro in registros:
+            for clave, valor in registro.items():
+                print(f"{clave} = {valor}")
+    else:
+        print("No hay regitros guardados.")
 
 registros = []
+
 while True:
-    agregar_usuario()
     opcion = input(
-        '''Para agregar mas usuarios presione 'a',
-        para ver los usuarios registrados presione v, 
-        para salir presione cualquier tecla.''').lower()
+'''\nPara agregar usuarios presione 'a'
+Para ver los usuarios registrados presione 'v' 
+Para salir presione cualquier tecla: ''').lower()
+    
     if opcion == 'v':
         listar_usuarios()
     elif opcion == 'a':
