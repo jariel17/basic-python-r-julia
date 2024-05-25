@@ -41,3 +41,26 @@ I have never use a Jupyter Notebook for a program different than Python.
 4. Create a new Jupyter Notebook your_file.ipynb 
 5. Change the kernel to R
 6. Have fun with your R notebook
+
+## Assignments
+
+- [ ] Session 1, BMC calculator
+  - [x] Python
+  - [ ] R
+  - [x] Julia
+- [ ] Session 2, A person register
+  - [x] Python
+  - [ ] R
+  - [x] Julia
+- [ ] Session 3, Functions
+  - [ ] Python
+  - [ ] R
+  - [ ] Julia
+- [ ] Session 4, Modules and packages
+  - [ ] Python
+  - [ ] R
+  - [ ] Julia
+- [ ] Session 5, Files
+  - [ ] Python
+  - [ ] R
+  - [ ] Julia 
