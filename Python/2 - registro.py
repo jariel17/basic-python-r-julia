@@ -17,11 +17,13 @@ while True:
     
     registros.append(registro)
 
-    salir = input("Si desea salir presione y, para continuar presione cualquier tecla: ")
+    salir = input("Si desea salir presione s, para continuar presione cualquier tecla: ")
 
-    if salir == 'y' or salir == 'Y':
+    if salir == 's' or salir == 'S':
+        print("Saliendo del programa.")
         break
 
 for registro in registros:
+    print("------------------")
     for clave, valor in registro.items():
         print(f"{clave} = {valor}")
