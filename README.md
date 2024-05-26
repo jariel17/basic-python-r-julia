@@ -48,12 +48,12 @@ I have never use a Jupyter Notebook for a program different than Python.
   - [x] Python
   - [ ] R
   - [x] Julia
-- [ ] Session 2, A person register
+- [ ] Session 2, Person register
   - [x] Python
   - [ ] R
   - [x] Julia
-- [ ] Session 3, Functions
-  - [ ] Python
+- [ ] Session 3, Person register wih functions
+  - [x] Python
   - [ ] R
   - [ ] Julia
 - [ ] Session 4, Modules and packages

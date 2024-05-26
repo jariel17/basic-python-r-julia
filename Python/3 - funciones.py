@@ -1,5 +1,5 @@
 def agregar_usuario():
-    print("A continuacion podrá agregar datos personales")
+    print("\nA continuacion podrá agregar datos personales")
     nombre = input("Introduzca el nombre: ")
     apellido = input("Introduzca el apellido: ")
     cedula = input("Introduzca la cedula: ")
@@ -10,14 +10,15 @@ def agregar_usuario():
         "nombre": nombre, 
          "apellido": apellido, 
          "cedula":cedula, 
-         "correo electrónico":correo, 
-         "teléfono":telefono}
+         "correo electronico":correo, 
+         "telefono":telefono}
     
     registros.append(registro)
 
 def listar_usuarios():
     if len(registros) != 0:
         for registro in registros:
+            print("---------------")
             for clave, valor in registro.items():
                 print(f"{clave} = {valor}")
     else:
