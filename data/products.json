@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "category": "Electronics",
+    "price": 1200.99,
+    "in_stock": true
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "category": "Electronics",
+    "price": 699.99,
+    "in_stock": false
+  },
+  {
+    "id": 3,
+    "name": "Desk Chair",
+    "category": "Furniture",
+    "price": 150.75,
+    "in_stock": true
+  },
+  {
+    "id": 4,
+    "name": "Gaming Console",
+    "category": "Electronics",
+    "price": 499.99,
+    "in_stock": true
+  },
+  {
+    "id": 5,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 89.50,
+    "in_stock": false
+  },
+  {
+    "id": 6,
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 29.99,
+    "in_stock": true
+  },
+  {
+    "id": 7,
+    "name": "Coffee Maker",
+    "category": "Appliances",
+    "price": 79.99,
+    "in_stock": true
+  },
+  {
+    "id": 8,
+    "name": "Blender",
+    "category": "Appliances",
+    "price": 45.50,
+    "in_stock": false
+  },
+  {
+    "id": 9,
+    "name": "Air Conditioner",
+    "category": "Appliances",
+    "price": 299.99,
+    "in_stock": true
+  },
+  {
+    "id": 10,
+    "name": "Headphones",
+    "category": "Electronics",
+    "price": 89.99,
+    "in_stock": true
+  }
+]

@@ -63,4 +63,8 @@ I have never use a Jupyter Notebook for a program different than Python.
 - [ ] Session 5, Files
   - [ ] Python
   - [ ] R
+  - [ ] Julia
+- [ ] Session 6, Data Processing with json file
+  - [ ] Python
+  - [ ] R
   - [ ] Julia 

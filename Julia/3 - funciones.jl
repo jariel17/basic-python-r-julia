@@ -22,5 +22,13 @@ function agregar_usuario()
 end
 
 function listar_usuarios()
-# TO DO
+    if length(registros) != 0
+        for registro in registros
+            println("---------------")
+            for (clave, valor) in registro
+                print(f"{clave} = {valor}")
+            end
+        end 
+    end
 end
+
