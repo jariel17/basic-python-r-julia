@@ -44,15 +44,15 @@ I have never use a Jupyter Notebook for a program different than Python.
 
 ## Assignments
 
-- [ ] Session 1, BMC calculator (Conditionals)
+- [x] Session 1, BMC calculator (Conditionals)
   - [x] Python
   - [ ] R
   - [x] Julia
-- [ ] Session 2, Person register (Functions)
+- [x] Session 2, Person register (Functions)
   - [x] Python
   - [ ] R
   - [x] Julia
-- [ ] Session 3, Areas and perimeters (Modules and Packages)
+- [x] Session 3, Areas and perimeters (Modules and Packages)
   - [x] Python
   - [ ] R
   - [ ] Julia
@@ -65,11 +65,11 @@ I have never use a Jupyter Notebook for a program different than Python.
     - [ ] Python
     - [ ] R
     - [ ] Julia
-  - [ ] Sales Data CSV
+  - [x] Sales Data CSV
     - [x] Python
     - [ ] R
     - [ ] Julia
-- [ ] Session 6, Student scores analysis (Notebooks)
+- [x] Session 6, Student scores analysis (Notebooks)
   - [x] Python
   - [ ] R
   - [ ] Julia 
