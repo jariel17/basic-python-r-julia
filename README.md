@@ -44,32 +44,32 @@ I have never use a Jupyter Notebook for a program different than Python.
 
 ## Assignments
 
-- [ ] Session 1, BMC calculator
+- [ ] Session 1, BMC calculator (Conditionals)
   - [x] Python
   - [ ] R
   - [x] Julia
-- [ ] Session 2, Person register
+- [ ] Session 2, Person register (Functions)
   - [x] Python
   - [ ] R
   - [x] Julia
-- [ ] Session 3, Person register wih functions
+- [ ] Session 3, Areas and perimeters (Modules and Packages)
   - [x] Python
   - [ ] R
   - [ ] Julia
-- [ ] Session 4, Modules and packages
+- [ ] Session 4, Scores register (Files)
   - [ ] Python
   - [ ] R
   - [ ] Julia
-- [ ] Session 5, Data processing from JSON
+- [ ] Session 5, Data filtering (Data processing)
   - [ ] Products Data JSON
     - [ ] Python
     - [ ] R
     - [ ] Julia
-  - [ ] Sales practice CSV
+  - [ ] Sales Data CSV
     - [x] Python
     - [ ] R
     - [ ] Julia
-- [ ] Session 6, Student scores analysis
+- [ ] Session 6, Student scores analysis (Notebooks)
   - [x] Python
   - [ ] R
   - [ ] Julia 
