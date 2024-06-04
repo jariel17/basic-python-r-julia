@@ -25,6 +25,8 @@ def filtrar_categoria(categoria):
                 print(f"{clave}: {valor}")
             print("-------------")
 
-
-
+print("Listamos todos los productos:")
+listar_productos()
+print("\n----------------------------\n")
+print("Filtramos los productos por la categoria Electronics:")
 filtrar_categoria(categoria='Electronics')

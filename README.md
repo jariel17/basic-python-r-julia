@@ -60,9 +60,9 @@ I have never use a Jupyter Notebook for a program different than Python.
   - [ ] Python
   - [ ] R
   - [ ] Julia
-- [ ] Session 5, Data filtering (Data processing)
-  - [ ] Products Data JSON
-    - [ ] Python
+- [x] Session 5, Data filtering (Data processing)
+  - [x] Products Data JSON
+    - [x] Python
     - [ ] R
     - [ ] Julia
   - [x] Sales Data CSV
