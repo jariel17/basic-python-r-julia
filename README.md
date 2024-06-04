@@ -1,6 +1,7 @@
 
 
-# Curso de Programación Previo a la Maestría en Analítica de Datos
+# Basic programming concepts in Python, R and Julia
+
 The intention of this project is to be a playground for Jupyter Notebooks with kernels different than Python, so why not Julia and R languages?
 I have never use a Jupyter Notebook for a program different than Python.
 
