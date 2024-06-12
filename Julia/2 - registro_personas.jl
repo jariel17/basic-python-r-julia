@@ -1,10 +1,15 @@
 function agregar_usuario()
-    print("\nA continuacion podrá agregar datos personales")
-    nombre = input("Introduzca el nombre: ")
-    apellido = input("Introduzca el apellido: ")
-    cedula = input("Introduzca la cedula: ")
-    correo = input("Introduzca el correo electronico: ")
-    telefono = input("Introduzca el telefono: ")
+    println("\nA continuacion podrá agregar datos personales")
+    print("Introduzca el nombre: ")
+    nombre = readline() 
+    print("Introduzca el apellido: ")
+    apellido = readline()
+    print("Introduzca la cedula: ")
+    cedula = readline()
+    print("Introduzca el correo electronico: ")
+    correo = readline()
+    print("Introduzca el telefono: ")
+    telefono = readline()
 
     registro = Dict(
         "nombre" => nombre,
@@ -19,9 +24,9 @@ end
 function listar_usuarios()
     if length(registros) != 0
         for registro in registros
-            print("-------------")
-            for (clave, valor) in pares(registro)
-                print("$clave = $valor")
+            println("-------------")
+            for (clave, valor) in pairs(registro)
+                println("$clave = $valor")
             end
         end
     else
@@ -37,12 +42,11 @@ while true
     println("Para salir, presione cualquier tecla: ")
 
     opcion = lowercase(readline())
-    
-    if opcion == 'v'
+    if opcion == "v"
         listar_usuarios()
-    elseif opcion == 'a'
+    elseif opcion == "a"
         agregar_usuario()
-    else
+    else    
         break
     end
 end
