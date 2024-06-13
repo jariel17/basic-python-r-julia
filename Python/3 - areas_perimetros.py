@@ -18,12 +18,12 @@ b. Perimetro''')
     calculo = input()
 
     if figura == 1 :
-        radio = int(input('Indica cual es el radio del circulo: '))
+        radio = float(input('Indica cual es el radio del circulo: '))
         if calculo == 'a':
             print("El area del circulo es: %2d" (matematicas.circulo.area(radio))) 
         elif calculo == 'b':
             print("El perimetro del circulo es: %2d" (matematicas.circulo.perimetro(radio))) 
-    elif figura == 2:
+    elif figura == 2: # TODO: Check this conditional, do not seem to make sense!
         print("perimetro del circulo")
     elif figura == 2 and calculo == 'a':
         print("area del rectangulo") 
