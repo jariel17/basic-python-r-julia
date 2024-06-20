@@ -1,4 +1,4 @@
-module rectangulo
+module Rectangulo
 
 export area, perimetro
 

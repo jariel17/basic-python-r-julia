@@ -1,4 +1,4 @@
-module circulo
+module Circulo
 
 export area, perimetro
 

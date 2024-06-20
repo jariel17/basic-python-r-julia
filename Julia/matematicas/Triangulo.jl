@@ -1,4 +1,4 @@
-module triangulo
+module Triangulo
 
 export area, perimetro
 
