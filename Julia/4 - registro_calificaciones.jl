@@ -69,19 +69,22 @@ function guardar_calificaciones(estudiantes)
     end
 end
 
-while true
-    try
-        println("Ingrese el numero de estudiantes: ")
-        num_estudiantes = parse(Int, readline())
-        if num_estudiantes <= 0
-            throw(ArgumentError("El numero de estudiantes debe ser mayor a cero."))
+function obtener_cantidad_estudiantes()
+    while true
+        try
+            println("Ingrese el numero de estudiantes: ")
+            num_estudiantes = parse(Int, readline())
+            if num_estudiantes <= 0
+                throw(ArgumentError("El numero de estudiantes debe ser mayor a cero."))
+            end
+            return num_estudiantes
+        catch e
+            println("Error: $e. Intente de nuevo.")
         end
-        return num_estudiantes
-    catch e
-        println("Error: $e. Intente de nuevo.")
     end
+end
 
+num_estudiantes = obtener_cantidad_estudiantes()
 num_calificaciones = obtener_calificaciones()
 estudiantes = obtener_datos_estudiantes(num_estudiantes, num_calificaciones)
 guardar_calificaciones(estudiantes)
-end
