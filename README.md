@@ -60,16 +60,16 @@ I have never use a Jupyter Notebook for a program different than Python.
 - [X] Session 4, Scores register (Files)
   - [X] Python
   - [ ] R
-  - [ ] Julia
+  - [X] Julia
 - [x] Session 5, Data filtering (Data processing)
   - [x] Products Data JSON
     - [x] Python
     - [ ] R
-    - [ ] Julia
+    - [X] Julia
   - [x] Sales Data CSV
     - [x] Python
     - [ ] R
-    - [ ] Julia
+    - [X] Julia
 - [x] Session 6, Student scores analysis (Notebooks)
   - [x] Python
   - [ ] R
