@@ -73,4 +73,4 @@ I have never use a Jupyter Notebook for a program different than Python.
 - [x] Session 6, Student scores analysis (Notebooks)
   - [x] Python
   - [ ] R
-  - [ ] Julia 
+  - [X] Julia 

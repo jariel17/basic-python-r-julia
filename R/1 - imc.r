@@ -1,20 +1,19 @@
 tryCatch({
 
   peso <- as.numeric(readline(prompt = "Introduzca su peso en kilogramos: "))
-  altura <- readline(prompt = "Introduzca su altura en metros: ")
-
-  if (!is.na(peso) || !is.na(altura)){
+  altura <- as.numeric(readline(prompt = "Introduzca su altura en metros: "))
+  # c crea una lista
+  if (any(is.na(c(peso, altura)))) {
     stop("Error de valores: El peso y la altura deben ser valores numericos")
   }
   if (as.numeric(altura) == 0) {
     stop("Error matematico: La division entre cero no es permitida")
   }
-  imc <- as.numeric(peso) / as.numeric(altura) ^ 2
+  imc <- peso / altura ^ 2
 
   imc_2 <- sprintf("%.2f", imc)
 
   cat("Su indice de masa corporal es: ", imc_2, "\n")
-  indicador <- ""
 
   if (imc < 18.5) indicador <- "BAJO PESO" else
     if (imc <= 24.9) indicador <- "PESO NORMAL" else
