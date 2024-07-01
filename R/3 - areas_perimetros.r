@@ -1,6 +1,6 @@
-source("R/matematicas/Circulo.r")
-source("R/matematicas/Rectangulo.r")
-source("R/matematicas/Triangulo.r")
+source("R/matematicas/circulo.r")
+source("R/matematicas/rectangulo.r")
+source("R/matematicas/triangulo.r")
 
 while (TRUE) {
   cat("
@@ -26,26 +26,31 @@ b. Perimetro
     } else if (figura == 1) {
       radio <- as.numeric(readline("Indica el radio del circulo: "))
       if (calculo == "a") {
-        area <- Circulo$area(radio)
-        cat(sprintf("El area del circulo es: %.2f\n", area1))
-      } else if (calculo == "b") {1
-        cat(sprintf("El perimetro del circulo es: %.2f\n", Circulo$perimetro(radio)))
+        area <- circulo$area(radio)
+        cat(sprintf("El area del circulo es: %.2f\n", area))
+      } else if (calculo == "b") {
+        perimetro <- circulo$perimetro(radio)
+        cat(sprintf("El perimetro del circulo es: %.2f\n", perimetro))
       }
     } else if (figura == 2) {
       lado <- as.numeric(readline("Indica la longitud de los lados del rectangulo: "))
       ancho <- as.numeric(readline("Indica el ancho del rectangulo: "))
       if (calculo == "a") {
-        cat(sprintf("El area del rectangulo es: %.2f\n", rectangulo$area(lado, ancho)))
+        area <- rectangulo$area(lado, ancho)
+        cat(sprintf("El area del rectangulo es: %.2f\n", area))
       } else if (calculo == "b") {
-        cat(sprintf("El perimetro del rectangulo es: %.2f\n", rectangulo$perimetro(lado, ancho)))
+        perimetro <- rectangulo$perimetro(lado, ancho)
+        cat(sprintf("El perimetro del rectangulo es: %.2f\n", perimetro))
       }
     } else if (figura == 3 && calculo == "a") {
       base <- as.numeric(readline("Indica la base del triangulo: "))
       altura <- as.numeric(readline("Indica la altura del triangulo: "))
-      cat(sprintf("El area del triangulo es: %.2f\n", triangulo$area(base, altura)))
+      area <- triangulo$area(base, altura)
+      cat(sprintf("El area del triangulo es: %.2f\n", area))
     } else if (figura == 3 && calculo == "b") {
       lados <- as.numeric(strsplit(readline("Ingresa los valores de cada lado del triangulo, separados por un espacio en blanco: "), " ")[[1]])
-      cat(sprintf("El perimetro del triangulo es: %.2f\n", triangulo$perimetro(lados[1], lados[2], lados[3])))
+      perimetro <- triangulo$perimetro(lados[1], lados[2], lados[3])
+      cat(sprintf("El perimetro del triangulo es: %.2f\n", perimetro))
     } else if (figura < 1 || figura > 3) {
       cat("Esta figura no esta definida aun.\n")
     }
