@@ -28,12 +28,14 @@ main <- function() {
   registros <- tibble()
   repeat {
     opcion <- tolower(readline(
-              paste("\nPara agregar usuarios presione 'a'",
-              "Para ver los usuarios registrados presione 'v'",
-              "Para salir presione cualquier tecla: ", sep = "\n")))
-    if (opcion == 'v') {
+      cat("\nPara agregar usuarios presione 'a'",
+          "Para ver los usuarios registrados presione 'v'",
+          "Para salir presione cualquier tecla: ", sep = "\n")
+    ))
+
+    if (opcion == "v") {
       listar_usuarios(registros)
-    } else if (opcion == 'a') {
+    } else if (opcion == "a") {
       registros <- agregar_usuario(registros)
     } else {
       break
