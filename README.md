@@ -57,8 +57,8 @@ I have never use a Jupyter Notebook for a program different than Python.
   - [x] Python
   - [ ] R
   - [ ] Julia
-- [ ] Session 4, Scores register (Files)
-  - [ ] Python
+- [X] Session 4, Scores register (Files)
+  - [X] Python
   - [ ] R
   - [ ] Julia
 - [x] Session 5, Data filtering (Data processing)
